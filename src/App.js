@@ -67,7 +67,7 @@ function App() {
   }
 
   return (
-    <div className="App mt-5 shadow rounded p-5" style={{width: '60%', margin: '0 auto'}}>
+    <div className="App mt-5 shadow rounded p-5" style={{width: '60%', margin: '0 auto', minWidth: '360px'}}>
       <h1>Todo List</h1>
       <AddTodoForm todos={todos} handleChange={handleChange} handleSubmit={handleSubmit} />
       <TodoList todos={todos} handleDelete={handleDelete} toggleComplete={toggleComplete} />
