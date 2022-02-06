@@ -9,7 +9,7 @@ const TodoList = ({ todos, handleDelete, toggleComplete }) => {
                         <span className='d-flex align-items-center'>
                             <input 
                                 type="checkbox"
-                                className="form-check-input"
+                                className="form-check-input me-2"
                                 onChange={() => toggleComplete(todo.id)}
                                 checked={todo.complete}
                             />
